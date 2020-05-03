@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'gon'
-gem 'strong_parameters'
+
 gem 'rails', '6.0.0'
 gem 'bootstrap-sass', '2.1'
 gem 'pg'

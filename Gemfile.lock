@@ -160,10 +160,6 @@ GEM
       actionpack (>= 4.0)
       activesupport (>= 4.0)
       sprockets (>= 3.0.0)
-    strong_parameters (0.1.4)
-      actionpack (>= 3.2.0)
-      activemodel (>= 3.2.0)
-      railties (>= 3.2.0)
     thor (1.0.1)
     thread_safe (0.3.6)
     tilt (2.0.10)
@@ -192,7 +188,6 @@ DEPENDENCIES
   pg
   rails (= 6.0.0)
   sass-rails (= 6.0.0)
-  strong_parameters
   uglifier (>= 1.0.3)
 
 BUNDLED WITH
