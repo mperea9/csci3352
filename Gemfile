@@ -2,10 +2,12 @@ source 'https://rubygems.org'
 
 gem 'gon'
 gem 'strong_parameters'
-gem 'rails', '3.2.11'
+gem 'rails', '6.0.0'
 gem 'bootstrap-sass', '2.1'
 gem 'pg'
-gem 'jquery-cookie-rails'
+
+gem 'json', '2.3.0'
+gem 'bundler', '~> 2.1.2'
 
 group :development do
   gem 'annotate', '2.5.0'
@@ -14,12 +16,12 @@ group :development do
 end
 
 group :assets do
-  gem 'sass-rails',   '~> 3.2.3'
-  gem 'coffee-rails', '~> 3.2.1'
+  gem 'sass-rails',   '6.0.0'
+  gem 'coffee-rails', '5.0.0'
 
 
   gem 'uglifier', '>= 1.0.3'
 end
 
-gem 'jquery-rails'
+gem 'jquery-rails', '4.3.5'
 
