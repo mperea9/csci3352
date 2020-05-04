@@ -1,11 +1,11 @@
 source 'https://rubygems.org'
 
 gem 'gon'
-
+gem 'activesupport'
 gem 'rails', '6.0.0'
-gem 'bootstrap-sass', '2.1'
+gem 'bootstrap-sass'
 gem 'pg'
-
+gem 'sassc-rails'
 gem 'json', '2.3.0'
 gem 'bundler', '~> 2.1.2'
 
