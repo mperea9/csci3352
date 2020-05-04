@@ -15,7 +15,8 @@ class ScoresController < ApplicationController
   end
 
   def create
-    @score = Score.new(params[:score])
+    @score = Score.new(score_params)
+
     @score.save
 
     gon.relevantScores = Score.where(scenario: @score.scenario)
@@ -25,5 +26,14 @@ class ScoresController < ApplicationController
 
 
   end
+
+  private
+
+    def score_params
+      # It's mandatory to specify the nested attributes that should be whitelisted.
+      # If you use `permit` with just the key that points to the nested attributes hash,
+      # it will return an empty hash.
+      params.require(:score).permit(:difficulty, :infected, :quarantined, :realtime, :saved, :scenario)
+    end
 
 end
