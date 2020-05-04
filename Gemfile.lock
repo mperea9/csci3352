@@ -147,6 +147,7 @@ GEM
     rake (13.0.1)
     request_store (1.5.0)
       rack (>= 1.4)
+    ruby (0.1.0)
     sass-rails (6.0.0)
       sassc-rails (~> 2.1, >= 2.1.1)
     sassc (2.3.0)
@@ -192,6 +193,7 @@ DEPENDENCIES
   json (= 2.3.0)
   pg
   rails (= 6.0.0)
+  ruby
   sass-rails (= 6.0.0)
   sassc-rails
   uglifier (>= 1.0.3)

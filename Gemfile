@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'gon'
+gem 'ruby'
 gem 'activesupport'
 gem 'rails', '6.0.0'
 gem 'bootstrap-sass'
