@@ -9,7 +9,7 @@ gem 'pg'
 gem 'sassc-rails'
 gem 'json', '2.3.0'
 gem 'bundler', '~> 2.1.2'
-gem 'protected_attributes'
+
 
 
 group :development do
