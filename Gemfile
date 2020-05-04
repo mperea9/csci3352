@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
+ruby '2.7'
 
 gem 'gon'
-gem 'ruby'
 gem 'activesupport'
 gem 'rails', '6.0.0'
 gem 'bootstrap-sass'
