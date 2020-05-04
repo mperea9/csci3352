@@ -11,6 +11,7 @@
 // GO AFTER THE REQUIRES BELOW.
 //
 //= require jquery
+//= require bootstrap-sprockets
 //= require d3.v3.min
 //= require netrics
 //= require sir
