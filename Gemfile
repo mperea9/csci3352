@@ -18,6 +18,12 @@ group :development do
   gem 'binding_of_caller'
 end
 
+
+group :production do
+  gem 'thin'
+  gem 'pg'
+end
+
 group :assets do
   gem 'sass-rails',   '6.0.0'
   gem 'coffee-rails', '5.0.0'
