@@ -3,7 +3,7 @@ ruby '2.7'
 
 gem 'gon'
 gem 'activesupport'
-gem 'rails', '6.0.0'
+gem 'rails', '7.0.4.1'
 gem 'bootstrap-sass'
 gem 'pg'
 gem 'sassc-rails'
